@@ -1,6 +1,6 @@
 # 视频处理一致性方法
 ## 传统方法
-1. 差距过大帧为前后帧的平均
+1. 差距过大帧为前后帧的平均 (https://www.ai2news.com/blog/26462/ + 改进cat前一帧alpha)
 ## 深度学习
 1. 利用全局的几何一致性来约束随机两帧训练（离线处理视频，随机两帧，通过估计的光流映射和相机位姿和深度映射到另一帧的一致性来约束深度图的稳定性）
 (Luo, Xuan, et al. "Consistent video depth estimation." ACM Transactions on Graphics (ToG) 39.4 (2020): 71-1.
